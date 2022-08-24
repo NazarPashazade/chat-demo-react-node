@@ -3,7 +3,7 @@ const http = require("http");
 const cors = require("cors");
 const { Server } = require("socket.io");
 
-const PORT = 4000;
+const PORT = 4001;
 const CORS_OPTIONS = {
     cors: {
         origin: "http://localhost:3000",
